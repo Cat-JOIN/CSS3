@@ -1,0 +1,62 @@
+/* * {
+    color: red;
+} */
+
+
+/* 选中所有具有href属性的元素 */
+
+[href="https://www.baidu.com/"] {
+    color: blue;
+}
+
+
+/* [href="https://www.douyu.com/"] {
+    color: rgb(78, 77, 11);
+} */
+
+
+/* 选中鼠标悬停时的a元素 */
+
+
+/* a:hover {
+    color: skyblue;
+} */
+
+
+/* 鼠标按下的时候 */
+
+
+/* a:active {
+    color: #008c8c;
+} */
+
+
+/* a:link {
+    color: red;
+} */
+
+
+/* a:visited {
+    color: springgreen;
+} */
+
+
+/* span::before {
+    content: "《";
+    color: yellow;
+}
+
+span::after {
+    content: "》";
+    color: red;
+} */
+
+
+/* p {
+    text-indent: 2em;
+    line-break: 2;
+}
+
+p.red {
+    color: blue;
+} */
