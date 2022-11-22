@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(Carousel chart)轮播图</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        .banner {
+            width: 520px;
+            height: 304px;
+            border: 1px solid;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .banner .imgs {
+            width: 3640px;
+            height: 304px;
+        }
+        
+        .banner .imgs img {
+            width: 520px;
+            height: 304px;
+        }
+        
+        .banner .imgs a {
+            float: left;
+        }
+        
+        .banner .left,
+        .banner .right {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            font-size: 3em;
+            text-align: center;
+            font-family: Arial;
+            color: #fff;
+            line-height: 50px;
+            cursor: pointer;
+        }
+        
+        .banner .left:hover,
+        .banner .right:hover {
+            background: #fff;
+            color: red;
+            border-radius: 50%;
+        }
+        
+        .banner .left {
+            left: 20px;
+        }
+        
+        .banner .right {
+            right: 20px;
+        }
+        
+        .banner .modal {
+            width: 100%;
+            height: 40px;
+            background: rgba(0, 0, 0, 0.1);
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            color: #fff;
+            line-height: 40px;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        
+        .banner .modal .title {
+            float: left;
+            font-weight: bold;
+        }
+        
+        .banner .modal .dots {
+            float: right;
+        }
+        
+        .banner .modal .dots li {
+            width: 8px;
+            height: 8px;
+            background: rgb(242, 241, 241);
+            display: inline-block;
+            margin: 0 1.5px;
+            border-radius: 50%;
+        }
+        
+        .banner .modal .dots li:hover {
+            background: rgb(170, 213, 228);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 框架型轮播图,后期css3实现完整效果 -->
+    <div class="banner">
+        <div class="imgs">
+            <a href="#"><img src="img/101200884_p0.jpg" alt=""></a>
+            <a href="#"><img src="img/101364438_p0.jpg" alt=""></a>
+            <a href="#"><img src="img/101364511_p0.jpg" alt=""></a>
+            <a href="#"><img src="img/101364523_p0.jpg" alt=""></a>
+            <a href="#"><img src="img/101364535_p0.jpg" alt=""></a>
+            <a href="#"><img src="img/101364621_p0.jpg" alt=""></a>
+            <a href="#"><img src="img/101364631_p0.jpg" alt=""></a>
+        </div>
+        <div class="left">&lt;</div>
+        <div class="right">&gt;</div>
+        <div class="modal">
+            <div class="title">Lorem ipsum dolor sit.</div>
+            <div class="dots">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
