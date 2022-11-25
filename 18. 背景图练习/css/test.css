@@ -1,0 +1,63 @@
+body {
+    background: url("../img/1_tm_wow_landing_20220926_bg-1-right.jpg") no-repeat 0 0;
+}
+
+.header {
+    width: 1262px;
+    height: 73px;
+    line-height: 73px;
+    color: #f8b700;
+    margin: 0 auto;
+    margin-top: 45px;
+    background: url("../img/1_images_landing-legion_bg_nav.jpg") no-repeat 0 0/100% 100%;
+    border: 1px solid #3f2a22;
+    border-left: none;
+    border-right: none;
+    position: relative;
+}
+
+.header nav a {
+    float: left;
+    width: 160px;
+    height: 70px;
+    text-align: center;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #3f2a22;
+    border-top: none;
+    border-bottom: none;
+}
+
+.header nav a:nth-child(3) {
+    margin-right: 302px;
+}
+
+.header .logo {
+    position: absolute;
+    width: 300px;
+    height: 118px;
+    background: url("../img/1_landing_1637046048090_wow-logo.png") no-repeat;
+    left: -5px;
+    top: -37px;
+    right: 0;
+    margin: auto;
+}
+
+.header .logo h1 {
+    display: none;
+}
+
+.Character-model {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 145px;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+
+.content {
+    width: 100%;
+    height: 1030px;
+}
